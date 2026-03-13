@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Heart, ChevronDown } from "lucide-react";
-import heroImage from "@/assets/hero-couple.jpg";
+import heroImage from "@/assets/love.png";
 import { defaultMemories, Memory } from "@/data/memories";
 import FloatingHearts from "@/components/FloatingHearts";
 import DaysCounter from "@/components/DaysCounter";

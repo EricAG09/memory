@@ -1,3 +1,4 @@
+// arquivo: DaysCounter.jsx
 import { useEffect, useState } from "react";
 import { coupleStartDate } from "@/data/memories";
 
@@ -12,9 +13,10 @@ const DaysCounter = () => {
       );
       setDays(diff);
     };
-    calc();
-    const interval = setInterval(calc, 60000);
-    return () => clearInterval(interval);
+
+    calc(); // calcula imediatamente ao montar
+    const interval = setInterval(calc, 60000); // atualiza a cada 1 minuto
+    return () => clearInterval(interval); // limpa intervalo ao desmontar
   }, []);
 
   return (
