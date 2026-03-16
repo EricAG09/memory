@@ -13,6 +13,14 @@ import AddMemoryForm from "@/components/AddMemoryForm";
 
 const Index = () => {
   const [memories, setMemories] = useState<Memory[]>(() => {
+    // Clear old cached data that may have broken image paths
+    const CACHE_VERSION = "v2";
+    const currentVersion = localStorage.getItem("romantic-memories-version");
+    if (currentVersion !== CACHE_VERSION) {
+      localStorage.removeItem("romantic-memories");
+      localStorage.setItem("romantic-memories-version", CACHE_VERSION);
+      return defaultMemories;
+    }
     const saved = localStorage.getItem("romantic-memories");
     return saved ? JSON.parse(saved) : defaultMemories;
   });
