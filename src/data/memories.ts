@@ -13,7 +13,7 @@ export interface Memory {
 export const defaultMemories: Memory[] = [
   {
     id: "1",
-    photo: "/public/memories/memory-1.png",
+    photo: "/src/assets/love2.png",
     title: "Nosso primeiro encontro",
     song_name: "Deixa",
     artist: "Lagum",
