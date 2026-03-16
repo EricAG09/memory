@@ -1,3 +1,5 @@
+import love2 from "@/assets/love2.png";
+
 export interface Memory {
   id: string;
   photo: string;
@@ -13,7 +15,7 @@ export interface Memory {
 export const defaultMemories: Memory[] = [
   {
     id: "1",
-    photo: "/src/assets/love2.png",
+    photo: love2,
     title: "Nosso primeiro encontro",
     song_name: "Deixa",
     artist: "Lagum",
@@ -24,9 +26,9 @@ export const defaultMemories: Memory[] = [
   },
   {
     id: "2",
-    photo: "/public/memories/memory-2.png",
+    photo: "/memories/memory-2.png",
     title: "Nosso primeiro beijo",
-    song_name: "Será que eu tô gostando dela?",
+    song_name: "Será que eu tô gostando dela?",
     artist: "Tuca Oliveira",
     romantic_phrase: "Cada parte de mim ama cada parte de você.",
     description: "Entre flores e risos, aconteceu nosso primeiro beijo. O tempo parou, o vento soprou suavemente, e naquele instante soubemos que estávamos exatamente onde deveríamos estar.",
@@ -35,7 +37,7 @@ export const defaultMemories: Memory[] = [
   },
   {
     id: "3",
-    photo: "/public/memories/memory-3.png",
+    photo: "/memories/memory-3.png",
     title: "Noite sob as estrelas",
     song_name: "Vida Vazia",
     artist: "Desejo de Menina",
@@ -46,7 +48,7 @@ export const defaultMemories: Memory[] = [
   },
   {
     id: "4",
-    photo: "/public/memories/memory-4.png",
+    photo: "/memories/memory-4.png",
     title: "Minha parceira de todas as horas",
     song_name: "FORRÓ E DESMANTELO",
     artist: "Manim Vaqueiro",
