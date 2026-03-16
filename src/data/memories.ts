@@ -18,7 +18,7 @@ export const defaultMemories: Memory[] = [
     song_name: "Deixa",
     artist: "Lagum",
     romantic_phrase: "Naquele momento, eu soube que era você.",
-    description: "O dia em que nos encontramos pela primeira vez. O nervosismo, os sorrisos tímidos, e aquela sensação de que algo mágico estava começando. Caminhamos pela praia enquanto o sol se punta, e o mundo inteiro pareceu parar só para nós dois.",
+    description: "O dia em que nos encontramos pela primeira vez. O nervosismo, os sorrisos tímidos, e aquela sensação de que algo mágico estava começando. Sentados no balanço do parque, conversamos por horas, como se o tempo tivesse parado. Foi o início de uma linda história de amor.",
     date: "2023-10-29",
     spotify_link: "https://www.youtube.com/watch?v=9_egsWu-B7M&list=RD9_egsWu-B7M&start_radio=1",
   },
