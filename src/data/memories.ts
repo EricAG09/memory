@@ -13,7 +13,7 @@ export interface Memory {
 export const defaultMemories: Memory[] = [
   {
     id: "1",
-    photo: "/src/assets/memory-1.png",
+    photo: "/public/memory-1.png",
     title: "Nosso primeiro encontro",
     song_name: "Deixa",
     artist: "Lagum",
@@ -24,7 +24,7 @@ export const defaultMemories: Memory[] = [
   },
   {
     id: "2",
-    photo: "/src/assets/memory-2.png",
+    photo: "/public/memory-2.png",
     title: "Nosso primeiro beijo",
     song_name: "Será que eu tô gostando dela?",
     artist: "Tuca Oliveira",
@@ -35,7 +35,7 @@ export const defaultMemories: Memory[] = [
   },
   {
     id: "3",
-    photo: "/src/assets/memory-3.png",
+    photo: "/public/memory-3.png",
     title: "Noite sob as estrelas",
     song_name: "Vida Vazia",
     artist: "Desejo de Menina",
@@ -46,7 +46,7 @@ export const defaultMemories: Memory[] = [
   },
   {
     id: "4",
-    photo: "/src/assets/memory-4.png",
+    photo: "/public/memory-4.png",
     title: "Minha parceira de todas as horas",
     song_name: "FORRÓ E DESMANTELO",
     artist: "Manim Vaqueiro",
