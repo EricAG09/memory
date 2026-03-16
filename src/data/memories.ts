@@ -1,5 +1,3 @@
-import love2 from "@/assets/love2.png";
-
 export interface Memory {
   id: string;
   photo: string;
@@ -15,7 +13,7 @@ export interface Memory {
 export const defaultMemories: Memory[] = [
   {
     id: "1",
-    photo: love2,
+    photo: "/memories/love2.png",
     title: "Nosso primeiro encontro",
     song_name: "Deixa",
     artist: "Lagum",
