@@ -29,7 +29,7 @@ export const defaultMemories: Memory[] = [
     song_name: "Será que eu tô gostando dela?",
     artist: "Tuca Oliveira",
     romantic_phrase: "Cada parte de mim ama cada parte de você.",
-    description: "Entre flores e risos, aconteceu nosso primeiro beijo. O tempo parou, o vento soprou suavemente, e naquele instante soubemos que estávamos exatamente onde deveríamos estar.",
+    description: "Entre filmes e risos, aconteceu nosso primeiro beijo. O tempo parou, o vento soprou suavemente, e naquele instante soubemos que estávamos exatamente onde deveríamos estar.",
     date: "2023-11-04",
     spotify_link: "https://www.youtube.com/watch?v=_OAXNKMmq5I&list=RD_OAXNKMmq5I&start_radio=1",
   },
